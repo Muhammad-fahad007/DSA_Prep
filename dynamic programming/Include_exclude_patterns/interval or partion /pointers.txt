@@ -1,0 +1,19 @@
+Start with the entire block or array:
+
+You begin by defining a function, such as f(i, j),
+that represents the entire range or segment you want to solve. Here, i is the starting
+point and j is the ending point of the chain (15:36 - 17:47).
+
+Try all partitions:
+
+Since there are multiple ways to break down the problem, you must
+iterate through all possible partition points (k) within the range of the current block.
+This is typically done by running a loop from i to j-1 (or i+1 to j) to test every
+potential split (18:04 - 18:53, 25:07).
+
+Return the best possible result:
+
+After testing all partitions and performing the
+necessary calculations (like finding the cost of multiplying sub-segments), you compare
+the results to identify and return the minimum cost/value among all possible ways to
+partition the problem (18:57 - 19:56).

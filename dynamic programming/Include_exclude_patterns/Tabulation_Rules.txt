@@ -1,0 +1,6 @@
+So in DP I will first
+
+1. think of DP size based on states
+2. I will fill base values
+3. Then I will think of filling smaller to larger values i.e figuring out the direction in which I will build i.e the outer loop or loops
+4. Then in inside my same logic that was present in recursion will take place

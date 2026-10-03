@@ -1,0 +1,10 @@
+subarrays 
+    total no of subrarrays - n * (n - 1)//2 
+    total no of subarrays from (left....right) summation of j-i+1
+
+LC - Subarray Sums Divisible by K 
+    if two no's divided by k(any number) gives the same remainder then their difference is always divided by K
+
+
+
+(A - B) % p = (A % p - B % p) % p       -ve val = mod-ed_val -ve val  (mod arithmatic)

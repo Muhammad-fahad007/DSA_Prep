@@ -1,0 +1,57 @@
+various different patterns
+
+1. Pick / Not Pick DP
+Examples:
+0/1 Knapsack
+Subset Sum
+Target Sum
+Pattern:
+Take current item OR skip it
+State usually:
+(index, remaining_capacity)
+
+2. Sequence Matching DP
+Examples:
+LCS
+Edit Distance
+Pattern:
+Compare two sequences
+State:
+(i, j)
+
+3. Increasing/Subsequence DP
+Examples:
+LIS
+Russian Doll Envelopes
+Pattern:
+Can current extend previous?
+
+4. Interval / Partition DP ← MCM belongs here
+Examples:
+Matrix Chain Multiplication
+Burst Balloons
+Merge Stones
+Boolean Parenthesization
+Pattern:
+For a RANGE,
+try every SPLIT point.
+
+
+
+1. What am I trying to optimize?
+   ↓
+   Minimum operations
+
+2. What defines the current problem?
+   ↓
+   Prefixes ending at i and j
+
+3. What's the last thing I need to decide?
+   ↓
+   How to handle the last characters
+
+4. What choices do I have?
+   ↓
+   Match / Replace / Delete / Insert
+
+5. What smaller problem remains?

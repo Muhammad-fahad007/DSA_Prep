@@ -1,0 +1,4 @@
+The data structure is the last decision.
+can I do and undo the ans --- like in valid anagram
+can I figure out the -ve case or +ve while traversing --- Ransom note
+

@@ -1,0 +1,21 @@
+This video serves as an introductory guide to **Bit Manipulation** in computer science. Here is a summary of the key concepts discussed for your quick revision:
+
+### 1. Number System Conversions (0:24 - 10:40)
+*   **Decimal to Binary:** Repeatedly divide the decimal number by 2 and track the remainders. Reading the remainders from bottom to top gives the binary representation (0:52).
+*   **Binary to Decimal:** Multiply each bit by $2^{index}$ (starting from index 0 on the right) and sum the results (2:41).
+
+### 2. Computer Memory Representation (11:15 - 12:50)
+*   **Integer Storage:** Computers store integers as **32-bit** sequences. 
+*   **Signed Numbers:** The most significant bit (31st bit) is reserved as the **sign bit** (0 for positive, 1 for negative).
+
+### 3. Complements (13:00 - 14:50)
+*   **1's Complement:** Flip all bits (0s become 1s, 1s become 0s) (13:07).
+*   **2's Complement:** Calculate the 1's complement and add 1. This is the standard way computers store **negative numbers** (13:35).
+
+### 4. Bitwise Operators (15:00 - 38:30)
+*   **AND (`&`):** Results in 1 only if both bits are 1 (15:18).
+*   **OR (`|`):** Results in 1 if at least one bit is 1 (17:21).
+*   **XOR (`^`):** Results in 1 if the number of 1s is odd; 0 if even (18:37).
+*   **Right Shift (`>>`):** Effectively divides the number by $2^k$. Bits are shifted right, and the leftmost bits are filled based on the sign (20:13, 22:24).
+*   **Left Shift (`<<`):** Effectively multiplies the number by $2^k$. Bits are shifted left, filling the right with zeros (31:58, 33:15).
+*   **NOT (`~`):** Flips all bits. For negative numbers, it uses the 2's complement logic to return the original positive value (34:26).
