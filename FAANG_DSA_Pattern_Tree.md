@@ -5,7 +5,7 @@ Use this as a pattern-first roadmap for SWE interview preparation.
 ```text
 DSA
 │
-├── 1. Arrays & Strings
+├── 1. Arrays & Strings  (DONE) Pass-1
 │   ├── Two Pointers
 │   │   ├── Opposite-direction pointers
 │   │   ├── Same-direction pointers
@@ -25,8 +25,9 @@ DSA
 │       ├── Rotation
 │       ├── Spiral
 │       └── Grid Simulation 
+
 │
-├── 2. Hashing
+├── 2. Hashing (DONE) Pass 1
 │   ├── HashMap
 │   ├── HashSet
 │   ├── Frequency Map
@@ -270,3 +271,53 @@ Test Edge Cases
     ↓
 Time + Space Complexity
 ```
+
+
+High priority
+- HashMap / HashSet
+- Arrays / Strings
+- Two Pointers
+- Sliding Window
+- Binary Search
+- Trees / BST
+- Graphs
+- Heap / Priority Queue
+- BFS / DFS
+- Dynamic Programming
+- Intervals / Greedy
+Medium priority
+- Linked Lists
+- Stack / Monotonic Stack
+- Prefix Sum
+- Backtracking
+- Union Find
+- Trie
+
+
+Topic	Priority	What you should know
+Arrays / HashMap / HashSet	🔴 Very High	Prefix sum, frequency, sorting, Kadane
+Strings	🔴 Very High	Hashing, sliding window, parsing
+Graphs	🔴 Very High	BFS, DFS, Dijkstra, Topo, DSU
+Trees / BST	🔴 Very High	DFS/BFS, LCA, recursion, BST
+Binary Search	🔴 Very High	Especially binary search on answer
+DP	🔴 Very High	1D, 2D, subsequence, knapsack, state
+Heap / Priority Queue	🟠 High	Top-K, scheduling, K-way merge, Dijkstra
+Trie	🟠 High	Prefix, search, Trie + DFS
+Intervals	🟠 High	Merge, overlap, scheduling
+Sliding Window	🟠 High	Variable/fixed window
+Two Pointers	🟠 High	Sorted arrays, pair/triplet problems
+Stack	🟠 High	Parentheses, expression, simulationd
+Monotonic Stack	🟠 High	Next greater/smaller, histogram
+Queue / Deque	🟡 Medium	BFS, monotonic deque, sliding window
+Linked List	🟡 Medium	Reverse, fast/slow, merge, cycle, LRU
+Backtracking	🟡 Medium	Subsets, permutations, combinations, grid
+Recursion	🟡 Medium	Tree/graph/backtracking foundation
+Greedy	🟡 Medium-High	Intervals, scheduling, optimization
+Bit Manipulation	🟡 Medium	XOR, masks, shifts, bit counting
+Union Find	🟡 Medium	Connectivity, cycles, grouping
+Math / Probability	🟡 Medium	Counting, probability, observations
+Matrix	🟡 Medium	Traversal, grid BFS/DFS
+Segment Tree	🟢 Low	Know concept; don't grind
+Fenwick Tree	🟢 Low	Awareness/basic problems
+Advanced Graph	🟢 Low	MST etc. after fundamentals
+Advanced DP	🟢 Low	Only after core DP is strong
